@@ -35,6 +35,7 @@ The App Server is currently located on [heroku](https://www.heroku.com) platform
 This is containerized app. Please, check out `./Makefile` with most used commands for quick application start.
 - `make up` | Start all containers (in background)
 - `make down` | Stop all started containers
+- `make install` | Install deps
 - `make shell-once` | Start node container
 - `make run-start` | Start node container and start app
 - `make run-dev` | Start node container and start app in development mode
