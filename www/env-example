@@ -9,8 +9,8 @@ FRONTEND_APP_URL=https://rss-parser-client.netlify.app
 ### DB CONFIGURATION (leave DB_URL and DB_NAME empty in dev mode!!!)
 # DB_URL=
 # DB_NAME=db-rss-posts
-MONGO_INITDB_ROOT_USERNAME=
-MONGO_INITDB_ROOT_PASSWORD=
+MONGO_INITDB_ROOT_USERNAME=user
+MONGO_INITDB_ROOT_PASSWORD=password
 
 ### JWT CONFIGURATION
 # secrets here just for sign in as admin in dev mode (check README.md)
