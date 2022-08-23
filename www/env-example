@@ -1,0 +1,29 @@
+### GENERAL CONFIGURATION
+PORT=4000
+MODE=dev
+
+### PRODUCTION APPs URL CONFIGURATION
+BACKEND_APP_URL=https://lifehacker-rss-parser-server.herokuapp.com
+FRONTEND_APP_URL=https://rss-parser-client.netlify.app
+
+### DB CONFIGURATION (leave DB_URL and DB_NAME empty in dev mode!!!)
+# DB_URL=
+# DB_NAME=db-rss-posts
+MONGO_INITDB_ROOT_USERNAME=
+MONGO_INITDB_ROOT_PASSWORD=
+
+### JWT CONFIGURATION
+# secrets here just for sign in as admin in dev mode (check README.md)
+JWT_ACCESS_SECRET=a_secret
+JWT_REFRESH_SECRET=r_secret
+ACCESS_EXPIRES_IN=1h
+REFRESH_EXPIRES_IN=30d
+
+### EMAILING CONFIGURATION 
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=
+SMTP_PASSWORD=
+
+### FETCHING RSS DATA SCHEDULE
+RSS_NODE_SCHEDULE=0 * * * *

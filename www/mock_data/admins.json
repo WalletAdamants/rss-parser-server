@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "62d2f9fecc8aa0eacf89e1ef"
+  },
+  "name": "Admin",
+  "email": "admin@gmail.com",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNjYxMjQwMTczLCJleHAiOjE2NjM4MzIxNzN9.fBcbTHcWPftEcAHZeZ7umEogDq3QaMBUEa05FB_1Ztw",
+  "verificationToken": null,
+  "emailVerified": true,
+  "password": "$2b$10$wvAhcAlBbtn1vp7BgZEu0u4cds/lw44hRyk7i9.KzG243xPb8CQSW",
+  "createdAt": {
+    "$date": "2022-07-16T17:48:46.340Z"
+  },
+  "updatedAt": {
+    "$date": "2022-08-23T06:27:33.786Z"
+  }
+}]
