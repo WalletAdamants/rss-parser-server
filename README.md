@@ -28,7 +28,7 @@ If you want to **sign in** as admin in dev mode without email verification, feel
 
 ## Live Server App
 
-The App Server is currently located on [heroku](https://www.heroku.com) platform. Here is [link](https://lifehacker-rss-parser-server.herokuapp.com/). 
+The App Server is currently located on [heroku](https://www.heroku.com) platform. Here is [link](https://lifehacker-rss-parser-eu.herokuapp.com/). 
 
 ## Docker and Makefile
 
